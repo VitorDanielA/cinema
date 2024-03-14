@@ -7,3 +7,89 @@
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
 }
+
+*{
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+main{
+  background-color: #1b1b1b;
+}
+
+/* Navbar */
+
+.opcoes p{
+  cursor: pointer;
+  transition: .1s;
+}
+
+.opcoes p:hover{
+  border-bottom: 1px solid #ffffff;
+  transition: .1s;
+}
+
+.cinema_title{
+  color: #fed02d;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.pesquisar{
+  height: 35px;
+  border-radius: 7px;
+  border: 1px solid #fed02d;
+  outline: none;
+  color: #1b1b1b;
+  padding-left: 10px;
+}
+
+.btn_pesquisar{
+  color: #1b1b1b;
+  background-color: #fed02d;
+  width: 150px;
+  height: 60px;
+  border-radius: 20px;
+  font-weight: bold;
+  transition: .5s;
+}
+
+.btn_pesquisar:hover{
+  background-color: #f5c20a;
+  color: #414040;
+  transition: .7s;
+}
+
+/* Carrousel */
+
+.titulo{
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.info_geral{
+  color: #858484;
+}
+
+.sinopse{
+  text-align: justify;
+}
+
+.agendamento{
+  color: #f5c20a;
+  font-size: 17px;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+/* */
+
+.sessao{
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #ffffff;
+}
+
+.setas{
+  cursor: pointer;
+}
